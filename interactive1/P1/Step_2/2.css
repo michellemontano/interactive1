@@ -1,0 +1,80 @@
+p {
+    width: 400px;
+    text-align: justify;
+    margin-bottom:30px;
+    padding-top: 20px;
+  }
+.slider {
+      width: 200px;
+      text-align:left;
+      margin-left: 500px;
+}
+.rotation {
+    transform:rotate(90deg);
+    text-align: justify;
+    width: 50px;
+    font-size: 5px;
+    margin:auto;
+}
+
+#bigpg {
+      text-align:justify;
+      margin: auto;
+      width: 300px;
+      font-family: monospace;
+}
+.lotsah1s {
+      position: fixed;
+}
+.follow_header {
+      position: fixed;
+}
+
+.div1 {
+      padding: 10px;
+      width: 300px;
+      text-align: justify;
+      margin-left: 100px;
+  }
+.div2 {
+      padding: 10px;
+      width: 300px;
+      text-align:justify;
+      margin-left: 200px;
+  }
+  .div3 {
+        padding: 10px;
+        width: 300px;
+        text-align:justify;
+        margin-left: 200px;
+    }
+    .div4 {
+          padding: 10px;
+          width: 300px;
+          text-align:justify;
+          margin-left: 300px;
+      }
+      .div5 {
+            padding: 10px;
+            width: 300px;
+            text-align:justify;
+            margin-left: 400px;
+        }
+        .div6 {
+              padding: 10px;
+              width: 300px;
+              text-align:justify;
+              margin-left: 500px;
+          }
+          .div7 {
+                padding: 10px;
+                width: 300px;
+                text-align:justify;
+                margin-left: 600px;
+            }
+            .div8 {
+                  padding: 10px;
+                  width: 300px;
+                  text-align:justify;
+                  margin-left: 700px;
+              }

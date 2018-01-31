@@ -1,0 +1,22 @@
+
+#grid {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-column-gap: 10px
+}
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px
+}
+body {
+  background-color:
+}
+p {
+  font-family: Avenir
+}
+#exercises {
+  font-family: Avenir
+}
+#projects {
+  font-family: Avenir
+}
