@@ -279,3 +279,9 @@
   font-weight: bold;
   color:red
 }
+.bottom {
+  float: right
+}
+.home {
+  float: middle
+}
