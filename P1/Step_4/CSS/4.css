@@ -280,8 +280,12 @@
   color:red
 }
 .bottom {
-  float: right
+  font-family:snell roundhand;
+  font-size: 60px;
+  float: right;
 }
 .home {
-  float: middle
+  font-family: snell roundhand;
+  float: middle;
+  font-size: 60px;
 }
