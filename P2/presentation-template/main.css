@@ -7,16 +7,18 @@ html, body {
 
 .slide {
 	width:100vw;
-	height:100vh;
+	height:200vh;
 	display: flex;
-	overflow: hidden;
+	overflow:visible;
+	padding: 50px;
 }
 
 img {
 	align-self: center;
     justify-content: center;
-    text-align: center;	
+    text-align: center;
     margin: auto;
+		padding: 100px;
 }
 
 
@@ -25,5 +27,5 @@ img {
     justify-content: center;
     text-align: center;
     width:100vw;
-    padding: 100px;	
+    padding: 100px;
 }
