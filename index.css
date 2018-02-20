@@ -7,16 +7,20 @@
 h1 {
   font-family:helvetica;
   font-size: 30px;
+  color:white;
 }
 body {
-  background-color:#b3ecff;
+  background-color:#4da6ff;
 }
 p {
   font-family: Avenir;
+  color: white;
 }
 #exercises {
   font-family: Avenir;
+  color: white;
 }
 #projects {
   font-family: Avenir;
+  color: white;
 }
