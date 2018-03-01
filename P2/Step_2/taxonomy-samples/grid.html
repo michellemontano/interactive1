@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grids</title>
+  <meta charset="utf-8" />
+  <style>
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .item {
+    border: 1px solid black;
+    padding: 50px;
+  }
+
+  .special {
+    background: red;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .special-2 {
+    background: blue;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  </style>
+</head>
+
+<body>
+  <!-- this is the containing grid-->
+  <div id="grid">
+    <!-- grid items -->
+    <div class="item special">1</div>
+    <div class="item special-2">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+    <div class="item">13</div>
+    <div class="item">14</div>
+    <div class="item">15</div>
+
+  </div>
+</body>
+</html>

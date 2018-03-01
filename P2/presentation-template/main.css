@@ -4,10 +4,6 @@ html, body {
 	overflow-x: hidden;
     box-sizing: border-box;
 }
-h1 {
-	font-family: arial;
-	font-size: 50px;
-}
 
 .slide {
 	width:100vw;
@@ -28,12 +24,8 @@ img {
 
 .text {
 	align-self: center;
-  justify-content: center;
-  text-align: center;
-  width:100vw;
-  padding: 100px;
-}
-p {
-	font-family: arial;
-	font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    width:100vw;
+    padding: 100px;
 }
