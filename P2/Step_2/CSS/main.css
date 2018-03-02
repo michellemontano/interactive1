@@ -1,0 +1,30 @@
+#content {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#left-col {
+  width: 50vw;
+  height: 100vh;
+  overflow: scroll;
+  float: left;
+  background: white;
+}
+
+#right-col {
+  width: 50vw;
+  height: 100vh;
+  overflow: scroll;
+  float: right;
+  background: white;
+}
+
+.item {
+  border: 1px solid white;
+  padding: 50px;
+  margin: 50px;
+  min-height: 400px;
+  color: white;
+}
