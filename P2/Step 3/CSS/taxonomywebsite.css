@@ -23,7 +23,7 @@ h1 {
   right: 30px;
   bottom: 20px;
   width: 400px;
-  height: 600px;
+  height: 400px;
   background: blue;
 
 }
@@ -31,24 +31,39 @@ h1 {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 360px;
-  height: 40px;
+  width: 400px;
+  height: 50px;
   background: green;
 }
 .eyes {
-  position:;
+  position: absolute;
+  width: 300px;
+  top: 20px;
+  left: 20px;
+  height: 50px;
+  background: purple;
 }
 .nose {
-  position:;
+  position: absolute;
+  width: 300px;
+  top: 20px;
+  left: 20px;
+  height: 50px;
+  background: pink;
 }
 .mouth {
-  position:;
+  position: absolute;
+  width: 300px;
+  top: 20px;
+  left: 20px;
+  height: 50px;
+  background: white;
 }
 
 .item {
   background: red;
-  height: 10px;
-  width: 10px;
+  height: 50px;
+  width: 100px;
   display: none;
   position: absolute;
 }
