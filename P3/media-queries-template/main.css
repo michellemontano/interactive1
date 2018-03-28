@@ -1,0 +1,66 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	background: black;
+	color:white;
+}
+
+#desktop{
+	opacity: 1;
+	color: white;
+}
+
+#tablet, #mobile, #print {
+	display: none;
+}
+
+/* iPad - you can separate the widths with "and"*/
+@media (min-width: 668px) and (max-width: 1024px) {
+	body {
+		background: grey;
+	}
+
+	#tablet{
+		opacity: 1;
+	}
+
+	#desktop, #mobile, #print {
+		display: none;
+	} /* This hides the other views so only this is seen */
+
+}
+
+/* iPhone 6 */
+@media (min-width: 375px) and (max-width: 667px) {
+
+	body {
+		background: white;
+	}
+
+	#mobile{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #print {
+		display: none;
+	}
+}
+
+/* print */
+@media print {
+	@page {
+		margin: 1cm;
+	}
+
+	body {
+		background: white;
+	}
+
+	#print{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #mobile {
+		display: none;
+	}
+}

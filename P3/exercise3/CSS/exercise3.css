@@ -1,0 +1,40 @@
+* { margin: 0px; padding: 0px; }
+
+h1 {
+	font-family: courier;
+}
+
+body {
+	font-family: courier;
+	padding: 30px
+}
+
+#desktop{
+	display: block;
+	color: black;
+	padding-top: 50px;
+}
+
+#print {
+	display: none;
+}
+
+
+/* print */
+@media print {
+	@page {
+		margin: 1cm;
+	}
+
+	body {
+		background: white;
+	}
+
+	#print{
+		display:block;
+	}
+
+	#desktop {
+		display: none;
+	}
+}
