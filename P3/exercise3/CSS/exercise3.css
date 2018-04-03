@@ -4,6 +4,10 @@ h1 {
 	font-family: courier;
 }
 
+h1:hover {
+	color: #2f990f,
+}
+
 h2, h5 {
 	font-family: bradley hand;
 }
