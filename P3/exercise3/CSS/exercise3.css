@@ -4,15 +4,26 @@ h1 {
 	font-family: courier;
 }
 
+h2, h5 {
+	font-family: bradley hand;
+}
+
 body {
 	font-family: courier;
-	padding: 30px
+	padding: 60px
 }
 
 #desktop{
 	display: block;
 	color: black;
 	padding-top: 50px;
+}
+#link {
+	padding: 100px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 #print {
@@ -23,8 +34,7 @@ body {
 /* print */
 @media print {
 	@page {
-
-		margin: 1cm;
+		margin: none;
 	}
 
 	body {
@@ -32,7 +42,11 @@ body {
 	}
 
 	#print{
-		display:block;
+		display: block;
+	}
+
+	#link {
+		display: none;
 	}
 
 	#desktop {
