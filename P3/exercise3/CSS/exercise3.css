@@ -23,6 +23,7 @@ body {
 /* print */
 @media print {
 	@page {
+
 		margin: 1cm;
 	}
 

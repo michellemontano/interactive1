@@ -7,10 +7,16 @@
 h1 {
   font-family:helvetica;
   font-size: 30px;
+  font-style: oblique;bold;
   color:white;
+}
+
+h1:hover {
+  color:#ff751a;
 }
 body {
   background-color:#4da6ff;
+  padding: 40px;
 }
 p {
   font-family: Avenir;
@@ -20,7 +26,16 @@ p {
   font-family: Avenir;
   color: white;
 }
+#exercises:hover {
+  color:#ff944d;
+}
 #projects {
   font-family: Avenir;
   color: white;
+}
+#projects:hover {
+  color:#ff944d;
+}
+#gif {
+  float: right;
 }
