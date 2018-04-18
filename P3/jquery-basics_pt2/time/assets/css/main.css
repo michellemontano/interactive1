@@ -1,0 +1,13 @@
+* {margin: 0px; padding 0px;}
+
+img {
+	width: 200px;
+	height: auto;
+	display: inline-block;
+}
+
+.break	{ display: none; }
+
+@media print {
+	.break	{ display: block; page-break-before: always; }
+}
