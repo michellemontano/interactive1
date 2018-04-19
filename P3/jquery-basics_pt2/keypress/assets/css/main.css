@@ -1,8 +1,8 @@
 * {margin: 0px; padding 0px;}
 
-h1 {
+.break {
 	line-height: 100vh;
-	font-size: 55px;
+	font-size: 30px;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -10,11 +10,11 @@ h1 {
 
 
 @media print {
-	.break	{ 
+	.break	{
 		line-height: 100vh;
-		font-size: 55px;
+		font-size: 30px;
 		font-family: Helvetica, Arial, sans-serif;
-		display: block; 
-		page-break-before: always; 
+		display: block;
+		page-break-before: always;
 	}
 }

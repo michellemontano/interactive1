@@ -2,14 +2,21 @@
 
 h1 {
 	font-family: courier;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
 }
-
 h1:hover {
 	color: #2f990f;
+	position: center;
+}
+h2:hover {
+	color: #2f990f;
+	position: center;
 }
 
 h2, h5 {
-	font-family: bradley hand;
+	font-family: courier;
 }
 
 body {
@@ -23,11 +30,10 @@ body {
 	padding-top: 50px;
 }
 #link {
-	padding: 100px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #print {
@@ -37,6 +43,13 @@ body {
 
 /* print */
 @media print {
+	.break	{
+		line-height: 100vh;
+		font-size: 30px;
+		font-family: Courier, Arial, sans-serif;
+		text-align: center;
+		page-break-before: always;
+	}
 	@page {
 		margin: none;
 	}
