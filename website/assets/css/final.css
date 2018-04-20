@@ -1,0 +1,29 @@
+#responses {
+  position:absolute;
+  bottom: 100px;
+  font-family: arial,sans-serif;
+  font-size: 30px;
+}
+#answerbox {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(#E1F4FF,#12B0FF);;
+}
+#answer1 {
+  font-family: arial,sans-serif;
+  font-size: 30px;
+  text align: left;
+  float: left;
+  padding-left: 100px;
+  color:white;
+}
+#answer2 {
+  font-family: arial,sans-serif;
+  font-size: 30px;
+  text-align: right;
+  float: right;
+  padding-right: 100px;
+  color:white;
+}
