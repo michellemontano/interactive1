@@ -1,12 +1,20 @@
 
+// CLICK 1
 $(document).ready(function(){
-    $('#answer1').click(function(){
-        $('#responses').append('Why did you click on me?');
+    $('#click1').click(function(){
+        $('#responses').append('Because I was forced to');
     });
   });
 
+// CLICK 2
   $(document).ready(function(){
-      $('#answer2').click(function(){
-          $('#responses').append('I am not sure why.');
+      $('#click2').click(function(){
+          $('#responses').append('I am not sure why');
       });
     });
+
+// Send sound on click 1&2
+
+
+
+// Message sound for michelleresponse
