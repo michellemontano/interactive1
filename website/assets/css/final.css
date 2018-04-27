@@ -1,15 +1,19 @@
 
 *{background: #5bc3ff;}
-
+body {
+  overflow: hidden;
+}
 #responses {
-  position:absolute;
-  bottom: 100px;
+  position: absolute;
+  bottom: 200px;
   font-family: europa-regular,sans-serif;
   position: right;
   float:right;
   font-size: 20px;
-  padding: 100px;
+  padding-left: 100px;
   color: white;
+  width: 100%;
+  box-sizing: border-box;
 }
 #botname {
   height: 70px;
@@ -18,8 +22,10 @@
   /* background: red; */
   font-family: courier,sans-serif;
   color: #aae0ff;
-  padding-top: 50px;
-  padding-left: 100px
+  padding-top: 200px;
+  padding-left: 200px;
+  box-sizing: border-box;
+
 }
 
 #answerbox {
@@ -29,6 +35,13 @@
   bottom: 0px;
   background:#5bc3ff;
   /* background: linear-gradient(#E1F4FF,#12B0FF); */
+}
+
+.answer {
+  display: block;
+  text-align: right;
+  background: red;
+  width: 100%;
 }
 
 #michelleresponse {
@@ -42,26 +55,42 @@
   color: white;
 }
 
+/* #line {
+  height: 30px;
+  color: black;
+  width: 100vw;
+  bottom: 50%;
+  z-index: 1000;
+  position: relative;
+} */
+
 #click1 {
   font-family: europa-regular,arial,sans-serif;
   font-size: 30px;
-  text align: left;
-  float: left;
-  padding-left: 100px;
+  text align: center;
+  float: center;
+  position: absolute;
+  left: 50%;
+  /* padding-left: 100px; */
   padding: 30px;
-  color:white;
-  background:blue;
+  color: white;
+  background: #009cf7;
   cursor: pointer;
+  /* margin-bottom: 100px; */
+  box-sizing: border-box;
 
 }
-#click2 {
+/* #click2 {
   font-family: europa-regular,arial,sans-serif;
   font-size: 30px;
   text-align: right;
   float: right;
+  position: relative;
   padding-right: 100px;
   padding: 30px;
+  margin-right: 300px;
+  margin-bottom:100px;
   color:white;
-  background:blue;
+  background: #009cf7;
   cursor: pointer;
-}
+} */
