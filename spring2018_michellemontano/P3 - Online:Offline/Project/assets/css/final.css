@@ -1,0 +1,100 @@
+
+*{background:black;}
+body {
+  overflow: hidden;
+}
+
+#responses {
+  position: absolute;
+  bottom: 200px;
+  font-family: helvetica,sans-serif;
+  position: right;
+  float:right;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+  width: 100%;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+/* #botname {
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  font-family: courier,sans-serif;
+  color: red;
+  padding-left: 100px;
+  box-sizing: border-box; */
+/* } */
+#answerbox {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 30%;
+  background:#5bc3ff;
+}
+
+.answer {
+    display: block;
+    text-align: right;
+
+    /* this prevents the message from going off the page */
+    width: calc(100% - 100px);
+}
+
+#michelleresponse {
+  font-family: helvetica,arial,sans-serif;
+  font-size: 40px;
+  text align: left;
+  font-weight: bold;
+  float: left;
+  padding-left: 200px;
+  position: absolute;
+  bottom: 40%;
+  color: red;
+}
+
+#click1 {
+    font-family: helvetica,arial,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    /* attach to the bottom of the page */
+    bottom: 20px;
+    /* margin left half the width of your button */
+    margin-left: -220px;
+    /* set a width so it doesn't shift position */
+    width: 440px;
+    /* align text in the center */
+    text-align: center;
+}
+#print {
+  opacity: 0;
+  z-index: 100;
+}
+@media print{
+#print {
+  font-family:helvetica;
+  font-style: oblique;
+  color:red;
+  font-size:130px;
+  font-weight: bold;
+  opacity:1;
+  /* background-color: black; */
+  z-index:99;
+}
+
+#responses,.answer,#click1,#answerbox,#michelleresponse{
+  background: transparent;
+}
+#answerbox {
+  opacity: 0;
+}
+}
